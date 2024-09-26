@@ -112,3 +112,10 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 - Set `ZSH_THEME="spaceship"` in your `.zshrc`.
 
 Atualmente estou usando um tema padrão que é o `ZSH_THEME="gnzh"`
+
+4. Plugin de gestão de comandos antigos
+
+```zsh
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
