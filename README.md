@@ -241,6 +241,8 @@ Verificar se os pacotes instalados estão na sua versão global.
 
 Poetry vai fazer a gestão de dependencias e criar a venv
 
+
+
 comandos:
 ```zsh
 # Configura o poetry para gerir a venv
