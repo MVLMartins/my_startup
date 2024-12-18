@@ -113,6 +113,12 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 Atualmente estou usando um tema padrão que é o `ZSH_THEME="gnzh"`
 
+4. Plugin de gestão de comandos antigos
+
+```zsh
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
 # Organizando ambiente python
 
 ![Diagrama das dependencias](images/Diagrama_dependencia.png)
