@@ -118,13 +118,19 @@ Atualmente estou usando um tema padrão que é o `ZSH_THEME="gnzh"`
 ```zsh
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+```
 
 # Organizando ambiente python
 
+## Resumo 
+
+![Resumo](images/Resumo.png)
+
+## Diagrama 
 ![Diagrama das dependencias](images/Diagrama_dependencia.png)
 
 
-# Sequencia
+## Sequencia
 
 - pyenv: gestão das versões do python
 - pip + venv: gestão de pacotes
@@ -133,7 +139,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 Nesse tutorial a gente usou essa [documentação](https://gist.github.com/luzfcb/ef29561ff81e81e348ab7d6824e14404) como referencia mas ela pode estar desatualizada.
 
-## pyenv
+### pyenv
 
 Primeiro, atualize a lista de pacotes:
 
@@ -212,7 +218,7 @@ pyenv local 3.10.16
 ```
 
 
-## pipx
+### pipx
 
 A ideia aqui é apenas ter no global os pacotes que precisamos. Para isso vamos usar esse comando para limpar seu pip local.
 
@@ -237,7 +243,7 @@ pipx install poetry
 Verificar se os pacotes instalados estão na sua versão global.
 ![alt text](images/pipx_list.png)
 
-## Poetry
+### Poetry
 
 Poetry vai fazer a gestão de dependencias e criar a venv
 
